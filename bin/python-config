@@ -1,4 +1,4 @@
-#!/home/rafael/GitHub/ReconhecimentoDePadroes-UTFPR/bin/python
+#!/home/todos/alunos/cm/a834173/Documentos/ReconhecimentoDePadroes-UTFPR/bin/python
 
 import sys
 import getopt

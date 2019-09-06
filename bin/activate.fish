@@ -36,7 +36,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/rafael/GitHub/ReconhecimentoDePadroes-UTFPR"
+set -gx VIRTUAL_ENV "/home/todos/alunos/cm/a834173/Documentos/ReconhecimentoDePadroes-UTFPR"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
