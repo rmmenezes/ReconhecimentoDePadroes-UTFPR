@@ -1,1 +1,0 @@
-# ReconhecimentoDePadroes-UTFPR
