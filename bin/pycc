@@ -1,0 +1,3 @@
+#!/home/todos/alunos/cm/a834173/Documentos/ReconhecimentoDePadroes-UTFPR/bin/python3
+from numba.pycc import main
+main()
