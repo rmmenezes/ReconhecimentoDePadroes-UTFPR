@@ -30,9 +30,9 @@ for arquivo in arquivos:
 
 
     #stft
-    _, _, w = stft(x, nperseg=14, noverlap=12, fs=200)
+    _, _, w = stft(x, nperseg=14, noverlap=13, fs=200)
     w = np.swapaxes(w, 2, 3)
-    # print(w.shape)
+    print(w.shape)
 
 
     #caracteristicas dominio da frequencia
@@ -48,7 +48,7 @@ for arquivo in arquivos:
     features = list()
     for feature in (fmd, mmdf):
         feature = feature.transpose(0, 2, 1)
-        feature = feature.reshape(4 * 701, 4)
+        feature = feature.reshape(4 * 1401, 4)
         # print('Feature: {}'.format(feature), feature.shape)
         features.append(feature)
 
